@@ -1,0 +1,150 @@
+#top-bar{
+	background-color: #CCFFFF;
+	width: 100%;
+	height: 80px;
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+#top{
+	z-index: 1;
+	position: fixed;
+}
+
+.search-bar{
+	float: left;
+
+}
+
+body{
+	margin: 0px;
+}
+
+form{
+	background-color: #fff;
+}
+
+.input-bar{
+	border: 0;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	height: 25px;
+	line-height: 25px;
+	outline: none;
+	width: 680px;
+	height: 60px;
+
+}
+
+.submit-bar{
+	border: 0;
+	background-image: url(../images/search-button.png);
+	background-size: 60px;
+	height: 60px;
+	width: 60px;
+	margin-top: 10px;
+	float: left;
+}
+
+#logo{
+	width: 70px;
+	height: 80px;
+	float: left;
+}
+
+#portrait{
+	width: 80px;
+	height: 80px;
+	float: right;
+}
+
+.Login{
+	float: right;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.scroll_div {
+    width:100%;
+    height:400px;
+    margin:0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    background:#ffffff;
+
+}
+.scroll_div img {
+    width:100%;
+    height:400px;
+}
+#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li{
+    display:inline;
+}
+
+#items{
+	width: 100%;
+	height: 150px;
+	background-color: #CCFFFF;
+	
+}
+
+#content{
+	overflow: auto;
+	position: absolute;
+	margin-top: 610px;
+	width: 100%;
+}
+
+.icon{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-left: 80px;
+	margin-top: 20px;
+	border-radius:50%;
+	background-color: #fff;
+}
+
+#Bible_Museum{
+	width: 600px;
+	height: 300px;
+	float: left;
+	margin: 50px;
+}
+
+.rate_content{
+	width: 100%;
+	height: 400px;
+    border-bottom: solid black;
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.8);
+}
+.box-login .section{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    z-index: 10;
+}
+

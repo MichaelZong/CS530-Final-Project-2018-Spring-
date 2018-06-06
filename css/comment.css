@@ -1,0 +1,134 @@
+
+
+#top{
+  z-index: 1;
+  position: static;
+  width: 100%;
+  height: 80px;
+  background-color: #CCFFFF;
+}
+
+#logo{
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+
+#items{
+  width: 100%;
+  height: 130px;
+  background-color: #CCFFFF;
+  position: static;
+  margin-top:0px;
+  z-index: 1;
+}
+
+.icon{
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 10px;
+  border-radius:50%;
+  background-color: #fff;
+}
+
+#autocomplete {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 99%;
+        margin-top: 100px;
+      }
+
+#top-bar{
+  background-color: #CCFFFF;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  
+
+}
+.search-bar{
+  float: left;
+
+}
+
+.input-bar{
+  border: 0;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  height: 25px;
+  line-height: 25px;
+  outline: none;
+  width: 680px;
+  height: 50px;
+
+}
+
+.submit-bar{
+  border: 0;
+  background-image: url(../images/search-button.png);
+  background-size: 60px;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  float: left;
+}
+
+
+#portrait{
+  width: 80px;
+  height: 80px;
+  float: right;
+}
+
+.Login{
+  float: right;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+
+body { font-size: 30px; line-height: 120%; text-align: center; color:#333; padding: 0px;}
+        a { color: #333; text-decoration: none;}
+        a:hover { text-decoration: underline;}
+        * { margin: 0; padding: 0; border: none;}
+        .clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+        .clearfix { *height:1%;}
+        #list { margin: 0 auto; text-align: left; width: 800px;}
+        .box1 {margin-top: 110px; border-top: 1px solid #eee; position: relative; width: 800px; padding: 20px 0 }
+        .box { border-top: 1px solid #eee; position: relative; width: 800px; padding: 20px 0}
+        .box:hover .close { display: block;}
+        .close { display: none; top:0px; right: 0px; width: 28px; height: 28px; border: 1px solid #eee; position: absolute; background: #f2f4f7; line-height: 27px; text-align: center;}
+        .close:hover { background: #c8d2e2; text-decoration: none;}
+        .head { float: left; width: 60px; height: 60px; margin-right: 10px;}
+        .content { float: left; width: 800px;}
+        .main { margin-bottom: 10px;}
+        .txt { margin-bottom: 10px;}
+        .user { color: #369; }
+        .pic { margin-right: 5px; width: 200px; border: 1px solid #eee;}
+        .info { height: 20px; line-height: 19px; font-size: 30px; margin: 0 0 10px 0;}
+        .info .time { color: #ccc; float: left; height: 20px; padding-left: 20px; background: url("images/bg1.jpg") no-repeat left top;}
+        .info .praise { color: #369; float: right; height: 20px; padding-left: 18px; background: url("images/bg2.jpg") no-repeat left top;}
+        .info .praise:hover { text-decoration: underline; background: url("images/bg3.jpg") no-repeat left top;}
+        .praises-total { margin: 0 0 10px 0; height: 20px; background: url("images/praise.png") no-repeat 5px 5px rgb(247, 247, 247); padding: 5px 0 5px 25px; line-height: 19px;}
+        .comment-box { padding: 10px 0; border-top: 1px solid #eee;}
+        .comment-box:hover { background: rgb(247, 247, 247);}
+        .comment-box .myhead { float: left; width: 30px; height: 30px; margin-right: 10px;}
+        .comment-box .comment-content { float: left; width: 400px; }
+        .comment-box .comment-content .comment-time { color: #ccc; margin-top: 15px; line-height: 16px; position: relative;}
+        .comment-box .comment-content .comment-praise { display: none; color: #369; padding-left: 17px; height: 20px; background: url("images/praise.png") no-repeat;  position: absolute; bottom: 0px; right: 44px;}
+        .comment-box .comment-content .comment-operate { display: none; color: #369; height: 20px;  position: absolute; bottom: 0px; right: 10px;}
+        .comment-box .comment-content:hover .comment-praise { display: inline-block;}
+        .comment-box .comment-content:hover .comment-operate { display: inline-block;}
+        .text-box .comment { border: 1px solid #eee; display: block; height: 35px; width: 428px; padding: 5px; resize: none; color: #ccc}
+        .text-box .btn { font-size: 20px; font-weight: bold; display: none; float: right; width: 65px; height: 25px; border: 1px solid #0C528D; color: #fff; background: #4679AC;}
+        .text-box .btn-off { border: 1px solid #ccc; color: #ccc; background: #F7F7F7;}
+        .text-box .word{ display: none; float: right; margin: 7px 10px 0 0; color: #666;}
+        .text-box-on .comment{ height: 50px; color: #333;}
+        .text-box-on .btn{ display: inline;}
+        .text-box-on .word{ display: inline;}
+        textarea{font-size: 30px;}
